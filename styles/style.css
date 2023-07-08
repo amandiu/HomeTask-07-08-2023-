@@ -1,0 +1,174 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  padding: 0%;
+  margin: 0%;
+}
+
+/* Common Button Style */
+.HeaderButton {
+  border-radius: 5px;
+  background: #f15b22;
+  color: #fff;
+  text-align: right;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: 0px;
+  padding: 21px 25px;
+}
+.mainHead {
+  color: #151414;
+  padding: 0px 100px 10px 100px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+/* Common End */
+header {
+  background-image: url("../images/banner/banner1.png");
+  display: flex;
+  background-repeat: no-repeat;
+  padding: 0px 0px 120px 0px;
+}
+.headerTitle {
+  color: #151414;
+  text-align: end;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 170px 180px 10px 650px;
+}
+.Positionbutton {
+  justify-content: right;
+  display: flex;
+  padding: 0px 230px 250px 0px;
+}
+.headerDescription {
+  display: flex;
+  width: 494px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #444343;
+  text-align: right;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 0px 180px 30px 700px;
+}
+/* Header Section End */
+
+/* Main section Start */
+.mainBody {
+  display: flex;
+  flex-direction: row;
+  padding: 100px 100px 80px;
+}
+.mainStyle1 {
+  width: 550px;
+  height: 550px;
+  border-radius: 275px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background: rgba(241, 91, 34, 0.2);
+}
+.persionImg {
+  margin-top: -165px;
+}
+.mainDescription {
+  color: #444343;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 5px 100px;
+}
+ul li {
+  list-style-image: url("../images/icons/check.jpg");
+}
+ul {
+  color: #444343;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 0px 100px;
+}
+.mainPlan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 30% 0px 30%;
+}
+.mainPlans {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px 100px;
+}
+.mainPlansBox {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.mainPlansTopic {
+  color: #151414;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 30px;
+}
+.mainPlanWant {
+  color: #737272;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 10px;
+}
+.banner {
+  background-image: url("../images/watch.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  padding: 0px 0px 50px 0px ;
+}
+.mainBanner {
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  margin-bottom: 300px;
+}
+.bannerDiscription {
+  margin-top: -240px;
+  margin-left: 80px;
+  color: #fff;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 0px 600px 20px 0px;
+}
+.downButton {
+  border-radius: 5px;
+  background: #fff;
+  color: #f15b22;
+  margin-left:80px ;
+}
+/* main section End */
+
+.footerMain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
